@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+     <style type="text/css">
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+a{display: block;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    background: #ccc;
+    color: #FFF;
+    padding-left: 10px;
+    margin-top: 10px;
+    }
+p{
+    width: 400px;height: 200px;
+    line-height: 20px;font-size: 14px;
+    padding-left: 10px;
+    overflow: auto;
+    /* display:none; */
+}
+
+    </style>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        jQuery($=>{
+            let $a = $('a');
+            let $p = $('p');
+            // for(let i = 0; i < $a.length; i++){
+            //     $($a[i]).on('click',function(){
+            //         for(let j = 0; j < $a.length; j++){
+            //             $($p[j]).css('display','none');
+            //         }
+            //         $($p[i]).css('display','block');
+            //     })
+            // }
+            $p.hide();
+            $a.on('click',function(){
+                $(this).next('p').slideDown().siblings('p').slideUp();
+            })
+        })
+    </script>
+</head>
+<body>
+    <a href="#">Brand</a>
+        <p id="msg0">sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa</p>
+    <a href="#">Promotion</a>
+        <p id="msg1"> sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa</p>
+    <a href="#">Event</a>
+        <p id="msg2"> sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsasadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa sadsa id="brand"</p>
+</body>
+</html>
